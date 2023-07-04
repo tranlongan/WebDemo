@@ -1,2 +1,2 @@
 # WebDemo
-chưa có responsive
+responsive chưa hoàn chỉnh
