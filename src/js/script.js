@@ -23,7 +23,7 @@ const blinkDescription4 = document.querySelector('.banner4-content--description'
 container.addEventListener('scroll', function () {
     const bannerCards = document.querySelectorAll('.banner-card')
     bannerCards.forEach(card => {
-        if (Math.ceil(container.scrollTop) >= 714) {
+        if (Math.ceil(container.scrollTop) === 714 || Math.ceil(container.scrollTop) === 668) {
             console.log('banner 2')
             coin1.style.animation = "animationBanner2Coin1 1.5s linear forwards"
             coin1.addEventListener('animationend', function () {
@@ -56,7 +56,7 @@ container.addEventListener('scroll', function () {
                 })
             })
         }
-        if (Math.ceil(container.scrollTop) === 1428) {
+        if (Math.ceil(container.scrollTop) === 1428 || Math.ceil(container.scrollTop) === 1335) {
             console.log('banner 3')
             const bannerCardItem3FrameImage = document.querySelector('.banner-card:nth-child(3) .banner-card--cover__frameImage')
             const bannerCardItem3 = document.querySelector('.banner-card:nth-child(3)')
@@ -65,7 +65,7 @@ container.addEventListener('scroll', function () {
                 bannerCardItem3.style.transform = "perspective(1200px) scale(1.3, 1) rotateY(-180deg)"
             })
         }
-        if (Math.ceil(container.scrollTop) === 2141) {
+        if (Math.ceil(container.scrollTop) === 2141 || Math.ceil(container.scrollTop) === 2002) {
             console.log('banner 4')
             sun.style.animation = "animationBanner4Sun 3s ease-in forwards"
             human.style.animation = "animationBanner4Human 3s ease-in forwards"

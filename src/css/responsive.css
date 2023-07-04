@@ -1,0 +1,184 @@
+@media only screen and (max-width: 639px) {
+    .header-list li {
+        font-size: 1rem;
+    }
+
+    .banner1-bridge {
+        width: 100%;
+        transform: translateZ(112px) translateY(176px);
+    }
+
+    .banner-bg_ {
+        transform: translateZ(114px) translateY(-32px);
+        height: 100%
+    }
+
+    .banner2-content, .banner4-content {
+        transform: translateZ(160px) translateX(0) translateY(-88px);
+    }
+
+    .banner2-content--title, .banner4-content--title {
+        font-size: 1.2rem;
+    }
+
+    .banner2-content--description, .banner4-content--description {
+        font-size: 0.6rem;
+    }
+
+    .banner2-background {
+        width: 72%;
+        transform: translateZ(114px) translateY(88px);
+    }
+
+    .banner2-lines {
+        width: 72%;
+        transform: translateZ(115px) translateY(88px);
+    }
+
+    .banner2-word-des {
+        width: 12%;
+        transform: translateZ(116px) translateX(64px) translateY(32px);
+    }
+
+    .banner2-cat {
+        width: 36%;
+        transform: translateZ(117px) translateY(88px);
+    }
+
+    .banner2-necklace {
+        width: 4%;
+        transform: translateZ(117px) translateX(-12px) translateY(118px);
+    }
+
+    .banner2-floor {
+        transform: translateZ(116px) translateY(192px);
+    }
+
+    .banner2-coins {
+        width: 40%;
+        transform: translateZ(118px) translateX(0) translateY(188px);
+    }
+
+    .banner-btn-prev {
+        transform: translateZ(115px) translateX(-48px) translateY(196px);
+    }
+
+    .banner-btn-next {
+        transform: translateZ(115px) translateX(48px) translateY(196px);
+    }
+
+    .banner4-floor {
+        width: 50%;
+        transform: translateZ(129px) translateY(188px);
+    }
+
+    .banner4-sun {
+        width: 56%;
+        transform: translateZ(114px) translateY(-16px);
+        opacity: 0;
+    }
+    @keyframes animationBanner4Sun {
+        from {
+            opacity: 0;
+            transform: translateZ(114px) translateY(372px) scale(0.4);
+        }
+        to {
+            transform: translateZ(114px) translateY(-16px);
+            opacity: 1;
+        }
+    }
+    .banner4-cloud1 {
+        width: 8%;
+        transform: translateZ(120px) translateX(24px) translateY(-32px);
+        opacity: 0;
+    }
+    @keyframes animationBanner4Cloud1 {
+        from {
+            opacity: 0;
+            transform: translateZ(120px) translateX(-96px) translateY(-32px);
+        }
+        to {
+            transform: translateZ(120px) translateX(24px) translateY(-32px);
+            opacity: 1;
+        }
+    }
+    .banner4-cloud2 {
+        width: 16%;
+        transform: translateZ(120px) translateX(-80px) translateY(-8px);
+    }
+    @keyframes animationBanner4Cloud2 {
+        from {
+            transform: translateZ(120px) translateX(-160px) translateY(32px);
+            opacity: 0;
+        }
+        to {
+            transform: translateZ(120px) translateX(-88px) translateY(32px);
+            opacity: 1;
+        }
+    }
+    .banner4-cloud3 {
+        width: 16%;
+        transform: translateZ(120px) translateX(320px) translateY(-88px);
+        opacity: 0;
+    }
+    @keyframes animationBanner4Cloud3 {
+        from {
+            opacity: 0;
+            transform: translateZ(120px) translateX(320px) translateY(-88px);
+        }
+        to {
+            opacity: 1;
+            transform: translateZ(120px) translateX(72px) translateY(-88px);
+        }
+    }
+    .banner4-cloud4 {
+        width: 16%;
+        transform: translateZ(120px) translateX(160px) translateY(48px);
+    }
+    @keyframes animationBanner4Cloud4 {
+        from {
+            opacity: 0;
+            transform: translateZ(120px) translateX(160px) translateY(48px);
+        }
+        to {
+            transform: translateZ(120px) translateX(80px) translateY(48px);
+            opacity: 1;
+        }
+    }
+    .banner4-human {
+        width: 40%;
+        transform: translateZ(128px) translateX(-160px) translateY(96px);
+    }
+    @keyframes animationBanner4Human {
+        from {
+            transform: translateZ(128px) translateX(160px) translateY(96px);
+            opacity: 0;
+        }
+        to {
+            transform: translateZ(128px) translateX(0) translateY(96px);
+            opacity: 1;
+        }
+    }
+    .banner4-fox {
+        width: 32%;
+        animation-delay: 2s !important;
+        transform: translateZ(128px) translateX(160px) translateY(142px);
+    }
+    @keyframes animationBanner4Fox {
+        from {
+            transform: translateZ(128px) translateX(160px) translateY(142px);
+            opacity: 0;
+        }
+        to {
+            transform: translateZ(128px) translateX(48px) translateY(142px);
+            opacity: 1;
+        }
+    }
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .banner1-bridge {
+        width: 100%;
+        transform: translateZ(112px) translateY(176px);
+    }
+}
