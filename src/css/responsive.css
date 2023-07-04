@@ -3,14 +3,33 @@
         font-size: 1rem;
     }
 
+    .header-list-item--btn {
+        font-size: 1rem;
+    }
+
+    .banner-bg--item {
+        transform: translateZ(114px) translateY(0);
+        height: 100%;
+    }
+
     .banner1-bridge {
         width: 100%;
-        transform: translateZ(112px) translateY(176px);
+        transform: translateZ(112px) translateY(160px);
     }
 
     .banner-bg_ {
-        transform: translateZ(114px) translateY(-32px);
+        transform: translateZ(114px);
         height: 100%
+    }
+
+    .banner2::before{
+        left: 0;
+        right: 0;
+        height: 64px;
+        position: absolute;
+        /*background: #f3e5d9;*/
+        background: black;
+        transform: translateZ(114px) translateY(-16px);
     }
 
     .banner2-content, .banner4-content {
@@ -77,6 +96,7 @@
         transform: translateZ(114px) translateY(-16px);
         opacity: 0;
     }
+
     @keyframes animationBanner4Sun {
         from {
             opacity: 0;
@@ -92,6 +112,7 @@
         transform: translateZ(120px) translateX(24px) translateY(-32px);
         opacity: 0;
     }
+
     @keyframes animationBanner4Cloud1 {
         from {
             opacity: 0;
@@ -106,6 +127,7 @@
         width: 16%;
         transform: translateZ(120px) translateX(-80px) translateY(-8px);
     }
+
     @keyframes animationBanner4Cloud2 {
         from {
             transform: translateZ(120px) translateX(-160px) translateY(32px);
@@ -121,6 +143,7 @@
         transform: translateZ(120px) translateX(320px) translateY(-88px);
         opacity: 0;
     }
+
     @keyframes animationBanner4Cloud3 {
         from {
             opacity: 0;
@@ -135,6 +158,7 @@
         width: 16%;
         transform: translateZ(120px) translateX(160px) translateY(48px);
     }
+
     @keyframes animationBanner4Cloud4 {
         from {
             opacity: 0;
@@ -149,6 +173,7 @@
         width: 40%;
         transform: translateZ(128px) translateX(-160px) translateY(96px);
     }
+
     @keyframes animationBanner4Human {
         from {
             transform: translateZ(128px) translateX(160px) translateY(96px);
@@ -164,6 +189,7 @@
         animation-delay: 2s !important;
         transform: translateZ(128px) translateX(160px) translateY(142px);
     }
+
     @keyframes animationBanner4Fox {
         from {
             transform: translateZ(128px) translateX(160px) translateY(142px);

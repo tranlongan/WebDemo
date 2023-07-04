@@ -38,6 +38,7 @@
     height: 70%
 }
 
+
 .banner1-cloud1, .banner1-cloud2, .banner1-cloud3 {
     width: 16%;
     position: absolute;
@@ -507,6 +508,9 @@
     width: 24px;
     height: 24px;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .banner-list-card {
@@ -539,7 +543,6 @@
 .banner4-sun {
     width: 24%;
     transform: translateZ(114px) translateX(160px) translateY(-72px);
-    /*animation: animationBanner4Sun 3s ease-in forwards;*/
     opacity: 0;
 }
 
@@ -558,7 +561,6 @@
     width: 3%;
     transform: translateZ(120px) translateX(240px) translateY(-72px);
     opacity: 0;
-    /*animation: animationBanner4Cloud1 3s linear infinite alternate;*/
 }
 
 @keyframes animationBanner4Cloud1 {
@@ -576,7 +578,6 @@
     width: 8%;
     transform: translateZ(120px) translateX(0) translateY(8px);
     opacity: 0;
-    /*animation: animationBanner4Cloud2 3s linear infinite;*/
 }
 
 @keyframes animationBanner4Cloud2 {
@@ -594,7 +595,6 @@
     width: 7%;
     transform: translateZ(120px) translateX(272px) translateY(-148px);
     opacity: 0;
-    /*animation: animationBanner4Cloud3 3s linear infinite alternate;*/
 }
 
 @keyframes animationBanner4Cloud3 {
