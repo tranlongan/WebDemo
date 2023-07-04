@@ -34,8 +34,8 @@
 
 .banner-bg_ {
     background-color: #f3e5d9;
-    transform: translateZ(114px) translateY(-16px);
-    height: 70%
+    transform: translateZ(114px) translateY(10%);
+    height: 84%;
 }
 
 
@@ -113,7 +113,7 @@
 }
 
 .banner-bg--item {
-    transform: translateZ(114px) translateY(-128px);
+    transform: translateZ(114px);
     height: 100%;
 }
 
@@ -138,22 +138,23 @@
 }
 
 .banner2-cat {
-    width: 14%;
-    transform: translateZ(117px) translateX(160px);
+    width: 18%;
+    transform: translateZ(117px) translateX(160px) translateY(8px);
 }
 
 .banner2-necklace {
     width: 2%;
-    transform: translateZ(117px) translateX(140px) translateY(40px);
+    transform: translateZ(117px) translateX(134px) translateY(64px);
 }
 
 .banner2-floor {
     width: 100%;
-    transform: translateZ(116px) translateX(160px) translateY(200px);
+    height: 288px;
+    transform: translateZ(116px) translateX(160px) translateY(288px);
 }
 
 .banner2-coins {
-    width: 24%;
+    width: 32%;
     transform: translateZ(118px) translateX(160px) translateY(200px);
 }
 
